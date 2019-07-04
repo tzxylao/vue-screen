@@ -402,7 +402,7 @@ var convertData = function (data) {
 // ];
 export default {
   title: {
-    text: '管控医院分布',
+    text: '管控店铺分布',
     subtext: 'data from shouhuda',
     sublink: 'http://www.shouhuda.com',
     left: 'center',

@@ -1,7 +1,7 @@
 <template>
   <div class="mainbox">
     <div class="head">
-      <h1>守护达数据大屏监控</h1>
+      <h1>XXX数据大屏监控</h1>
       <div class="weather"><!--<img src="picture/weather.png"><span>多云转小雨</span>--><span>{{showTime}}</span></div>
     </div>
 
@@ -21,7 +21,7 @@
           <div class="boxfoot"></div>
         </div>
         <div class="boxall" style="height: 3.2rem">
-          <div class="alltitle">新增护工统计</div>
+          <div class="alltitle">新增人员统计</div>
           <chart
             style="width:100%;"
             class="allnav"
@@ -33,7 +33,7 @@
           <div class="boxfoot"></div>
         </div>
         <div class="boxall" style="height: 3.2rem">
-          <div class="alltitle">护工信用分布</div>
+          <div class="alltitle">人员信用分布</div>
           <chart
             style="width:100%;"
             class="allnav"
@@ -126,15 +126,15 @@ export default {
       data:{
         summary:[
           {
-            title:'护工机构',
+            title:'人员机构',
             count:100
           },
           {
-            title:'医院数量',
+            title:'店铺数量',
             count:30
           },
           {
-            title:'护工数量',
+            title:'人员数量',
             count:5000
           },
           {
