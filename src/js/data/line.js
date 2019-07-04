@@ -1,9 +1,3 @@
-// import network from '../../utils/network'
-
-// network.postData(process.env.VUE_APP_BASE_API,"3003101011",{msg:'hello'},(data) =>{
-//   console.log(data);
-// })
-
 export default {
   tooltip: {
     trigger: 'axis',
